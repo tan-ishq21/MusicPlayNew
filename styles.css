@@ -1,0 +1,224 @@
+body{
+  background-color: #0081C9;
+  /* background-image: url("images/bgimg.jpg"); */
+}
+
+/************************** TITLE SECTION **************************/
+
+
+
+#title{
+  background-color: #0081C9;
+}
+h1{
+  font-family: "Ubuntu";
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+h2{
+  font-family: noto-serif;
+  font-size: 2rem;
+  line-height: 1.3;
+}
+h3{
+  font-family: noto-serif;
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+  font-size: 0.8rem;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.7rem;
+}
+.navbar{
+  padding-bottom: 4rem;
+}
+
+
+.title-image{
+  width: 80%;
+  border-radius: 25px;
+  float: right;
+  margin-top: -100px;
+  margin-right: -40px;
+
+}
+
+/************************** FEATURES SECTION **************************/
+
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+}
+.about-box{
+  text-align: center;
+  font-size: 1rem;
+  padding: 5%;
+}
+
+.icon{
+  color: #0081C9;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+
+
+
+/************************** MUSIC PLAYER SECTION **************************/
+
+.player{
+  align-items: center;
+  display: flex;
+  justify-content: center; /* allign at center*/
+  flex-direction: column;  /* center column*/
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* margin-top: 5%; */
+}
+
+
+.details{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 5%; */
+}
+
+.prev-track{
+  padding: 25px;
+  margin-top: 8%;
+  opacity: 0.7;
+}
+
+.next-track{
+  padding: 25px;
+  margin-top: 8%;
+  opacity: 0.7;
+}
+.playpause-track{
+  padding: 25px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.playpause-track:hover, .prev-track:hover, .next-track:hover{
+  color: #ff4c68;
+  opacity: 1.0;
+}
+
+.now-playing{
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  line-height: 1;
+  font-style: italic;
+  margin-top: 35px;
+}
+.track-name, .track-artist{
+  text-align: center;
+  font-family: 'Dancing Script';
+}
+.track-name{
+  font-size: 36px;
+}
+.track-artist{
+  font-size: 25px;
+}
+
+.track-art{
+  /* margin: 25px; */
+  width: 25px;
+  height: 25px;
+
+}
+
+.slider_container {
+  width: 75%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider,.volume_slider{
+   -webkit-appearance: none;  /* Override default CSS styles */
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 10px; /* Specified height */
+  border-radius: 5px;
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7;   /* Set transparency (for mouse-over effects on hover) */
+  /* -webkit-transition: .2s;   /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+/* Mouse-over effects */
+.slider:hover, .volume_slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb, .volume_slider::-webkit-slider-thumb{
+ -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  border-radius: 50%;
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb,.volume_slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 50%;
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider{
+  width: 100%;
+}
+.volume_slider{
+  width: 60%;
+}
+
+.current-time{
+  padding: 10px;
+}
+.total-duration{
+  padding: 10px;
+}
+.fa-volume-down{
+  padding: 10px;
+}
+.fa-volume-up{
+  padding: 10px;
+}
+
+.fa-play-circle,
+.fa-pause-circle,
+.fa-step-forward,
+.fa-step-backward {
+  cursor: pointer;
+}
