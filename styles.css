@@ -46,7 +46,7 @@ p{
 
 @media only screen and (max-width: 1028px) {
   .title-image{
-    padding-top: 15px;
+    margin-top: 30px;
   }
 }
 .title-image{
