@@ -30,11 +30,11 @@
         artist: "Elle Duhe",
         path: "Songs/MiddleOfTheNight.mp3"
       },
-//       {
-//           name: "Dil Ibadat",
-//           artist: "KK",
-//           path: "Songs/Dilibadat.mp3"
-//         },
+       {
+          name: "Bones",
+          artist: "Imagine Dragons",
+          path: "Songs/Bones.mp3"
+        },
         {
           name: "Haan Tu Hai",
           artist: "KK",
