@@ -44,15 +44,29 @@ p{
   padding-bottom: 4rem;
 }
 
-
+@media only screen and (max-width: 1028px) {
+  .title-image{
+    padding-top: 15px;
+  }
+}
 .title-image{
+  height: auto;
+  max-width: 80%;
+  /* position: relative; */
+  border-radius: 25px;
+/*
+  margin-top: -100px;
+  margin-right: -80px; */
+
+}
+/* .title-image{
   width: 80%;
   border-radius: 25px;
   float: right;
   margin-top: -100px;
   margin-right: -40px;
 
-}
+} */
 
 /************************** FEATURES SECTION **************************/
 
